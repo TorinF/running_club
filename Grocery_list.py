@@ -12,6 +12,11 @@ best_so_far_name = 0
 best_so_far_cost = 0
 heaviest_so_far_weight = 0
 heaviest_so_far_name = 0
+<<<<<<< HEAD
+=======
+#Danke meme test incoming
+#Test 2
+>>>>>>> Changes
 decide = input("What do you want to do with the list.\nsearch/highest price/heaviest/display items/: ")
 >>>>>>> aebc96a3a22a222cdb01e1022b4d172f583cc77f
 #Grocery list stats [cost, weight(lbs)]
