@@ -3,10 +3,6 @@ best_so_far_name = 0
 best_so_far_cost = 0
 heaviest_so_far_weight = 0
 heaviest_so_far_name = 0
-#Danke meme test incoming
-#mergefootprint
-print('woah')
-print("Fast")
 decide = input("What do you want to do with the list.\nsearch/highest price/heaviest/display items/: ")
 #Grocery list stats [cost, weight(lbs)]
 apple = [2.5, 1]
