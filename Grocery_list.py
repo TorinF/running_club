@@ -26,10 +26,9 @@ grocery_items = [item_1, item_2, item_3, item_4, item_5,
 grocery_dict = {'apple': item_1, 'bannana': item_2, 'salt': item_3, 'pepper': item_4, 'watermelon': item_5,
     'wine': item_6,'snickers': item_7, 'cavliar': item_8, 'sunscreen': item_9, 'gold': item_10, new_entry_name: item_11
 }
-print(new_entry_name != None and (not new_entry_name in grocery_list))
 #starting program based on user's decision
 while program_on:
-	#refreshing dictionary and stats incase the user added a new item
+	#refreshing dictionary and stats if the user added a new item
 	if new_entry_name != None and (not new_entry_name in grocery_list):
 		grocery_list.insert(len(grocery_list),new_entry_name)
 		grocery_dict = {'apple': item_1, 'bannana': item_2, 'salt': item_3, 'pepper': item_4, 'watermelon': item_5, 'wine': item_6,'snickers': item_7, 'cavliar': item_8, 'sunscreen': item_9, 'gold': item_10, new_entry_name: item_11}
