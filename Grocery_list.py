@@ -76,7 +76,7 @@ while program_on:
 	    print('-------------------')
 	    for i in range(len(grocery_list)):
 	        if grocery_items[walker][0] > 0 and grocery_items[walker][1] > 0:
-	        	print(grocery_list[walker]+'\nCost: $'+str(grocery_items[walker][0]))
+	            print(grocery_list[walker]+'\nCost: $'+str(grocery_items[walker][0]))
 	            print('Weight: '+str(grocery_items[walker][1])+' lbs')
 	            print("-------------------")
 	        walker += 1
